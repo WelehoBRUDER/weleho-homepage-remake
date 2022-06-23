@@ -1,0 +1,74 @@
+@use "./utility.scss" as *;
+
+a.primary-button {
+  color: $white;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Language selector component styling
+.language-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: auto;
+
+  .language-selector-selected {
+    width: 65px;
+    height: 50px;
+    color: $white;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    background: none;
+    border: none;
+    text-shadow: $text-shadow-sm;
+    cursor: pointer;
+
+    i {
+      font-size: $font-size-lg;
+      margin: 0;
+    }
+  }
+
+  .language-selector-list {
+    width: 100%;
+    border: 3px solid $color-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    box-shadow: $shadow-lg;
+
+    .language-selector-button {
+      text-align: left;
+      color: $white;
+      text-shadow: $text-shadow-sm;
+      font-size: $font-size-base;
+      background: $color-primary-light;
+      border: none;
+      margin: 0;
+      width: 100%;
+      height: 50px;
+      cursor: pointer;
+
+      &:hover {
+        background: $color-primary-dark;
+      }
+    }
+
+    &.closed {
+      display: none;
+    }
+  }
+}
