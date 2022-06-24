@@ -73,3 +73,16 @@ p {
 .about-me {
   padding-top: 100px;
 }
+
+.chevron {
+  background: none;
+  border: none;
+
+  i {
+    font-size: 10rem;
+  }
+
+  &:hover {
+    color: $white;
+  }
+}

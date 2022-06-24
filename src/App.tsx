@@ -6,6 +6,7 @@ import "./style/components.scss";
 import "./style/mobile_layout.scss";
 import Language from "./Language";
 import Home from "./pages/Home";
+import ProjectPage from "./pages/ProjectPage";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
@@ -63,6 +64,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/project/:id" element={<ProjectPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

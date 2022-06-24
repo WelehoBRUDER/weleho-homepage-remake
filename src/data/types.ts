@@ -1,7 +1,8 @@
 export interface IProject {
-  [name: string]: string;
+  [name: string]: any;
   type: string;
   image: string;
+  images: string[];
   link: string;
   repo: string;
   status: string;

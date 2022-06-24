@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { IProject } from "../data/types";
+import Button from "./Button";
 import Language from "../Language";
 
 export default function Project({
@@ -15,7 +16,9 @@ export default function Project({
   return (
     <div className="project-container">
       <div className="project-header">
-        <h3>{project.name}</h3>
+        <Button link={`/project/${project.name.replaceAll(" ", "_").trim()}`}>
+          <h3>{project.name}</h3>
+        </Button>
       </div>
       <div className="project-body">
         <div className="project-image">

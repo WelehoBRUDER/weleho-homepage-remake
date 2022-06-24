@@ -21,5 +21,25 @@
   },
   "projects": {
     "title": "Projektit"
+  },
+  "project": {
+    "Dungeons_of_Tavaraen": {
+      "shortDesc": "Tales of Maj'Eyalin inspiroima Roguelite RPG. Tämän hetkinen projektini, käy ihmeessä kokeilemassa!"
+    },
+    "Memory_Cards": {
+      "shortDesc": "Dark Souls 3 teemainen Muistikorttipeli. Tein tämän projektin opetellakseni Reactia."
+    },
+    "Pohjola_II": {
+      "shortDesc": "Vuoropohjainen taistelupeli jonka tein suurimmilta osin yhden viikonlopun aikana. Tämä peli on valmis."
+    },
+    "Pohjola_III": {
+      "shortDesc": "Vuoropohjainen taistelupeli jonka piti olla jatko-osa Pohjola II:teen. Lopetin tämän pelin kehittämisen keskittyäkseni Dungeons of Tavaraeniin."
+    },
+    "Tears_of_the_Evertree": {
+      "shortDesc": "Vuoropohjainen roolipeli jota varten minulla oli suuria suunnitelmia. Harmillisesti hylkäsin tämän projektin muutaman kuukauden jälkeen."
+    },
+    "My_Road": {
+      "shortDesc": "Hieman vanhempi peli jonka tekemisen aloitin koska netti oli poikki yhtenä päivänä. Tämä oli ensimmäinen lisäykseni Githubiin!"
+    }
   }
 }

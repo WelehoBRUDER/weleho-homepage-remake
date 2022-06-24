@@ -24,7 +24,7 @@
   },
   "project": {
     "Dungeons_of_Tavaraen": {
-      "shortDesc": "2D Roguelite RPG inspired by Tales of Maj'Eyal. Currently my most actively developed project, give it a try if you're interested!"
+      "shortDesc": "Roguelite RPG inspired by Tales of Maj'Eyal. Currently my most actively developed project, give it a try if you're interested!"
     },
     "Memory_Cards": {
       "shortDesc": "Simple memory card game based on Dark Souls III, made to practice React."
