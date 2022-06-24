@@ -1,5 +1,10 @@
 @use "./utility.scss" as *;
 
+// enable smooth scroll on everything
+html {
+  scroll-behavior: smooth;
+}
+
 // base body
 body {
   font-family: $font-family-base;
@@ -51,4 +56,16 @@ p {
 
 .section-medium {
   width: 565px;
+}
+
+.section-wide {
+  width: 1085px;
+}
+
+.sub-title {
+  color: gold;
+}
+
+.about-me {
+  margin-top: 100px;
 }

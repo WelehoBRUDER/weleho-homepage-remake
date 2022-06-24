@@ -1,12 +1,25 @@
 {
   "title": "Weleho's Lair",
   "header": {
-    "title": "WelehoBRUDER"
+    "title": "WelehoBRUDER",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "projects": "Projects"
   },
   "home": {
     "title": "Weleho's Lair",
     "welcome_1": "Welcome to Weleho's Lair!",
     "welcome_2": "This is my personal website where you can find out more about me and my projects.",
     "welcome_3": "I hope you enjoy your stay!"
+  },
+  "about": {
+    "title": "About Me",
+    "section_1": "I am a 20 year old software developer from Helsinki, Finland.",
+    "section_2": "I have a particular passion for game development, which is reflected on my projects.\nAnd though game development is why I learned to code, programming in general has also become one of my favourite hobbies.",
+    "section_3": "My current project is called 'Dungeons of Tavaraen', you can learn more about it and other games I have created down below."
+  },
+  "projects": {
+    "title": "Projects"
   }
 }

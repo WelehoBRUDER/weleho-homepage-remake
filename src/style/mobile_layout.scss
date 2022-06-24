@@ -1,0 +1,42 @@
+@use "./utility.scss" as *;
+
+@media screen and (max-width: 600px) {
+  .burger {
+    display: block !important;
+  }
+  .header {
+    * {
+      margin: 0 !important;
+    }
+
+    &.hidden-on-mobile {
+      display: none;
+    }
+
+    &.visible-on-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      padding: 20px 0px;
+
+      .language-selector {
+        align-items: center;
+      }
+
+      nav {
+        flex-direction: column;
+
+        ul {
+          width: 100%;
+          flex-direction: column;
+
+          li {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
