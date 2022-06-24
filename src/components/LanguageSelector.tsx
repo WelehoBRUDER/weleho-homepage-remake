@@ -2,7 +2,20 @@
 import { useState } from "react";
 import Button from "./Button";
 
-export default function LanguageSelector({ lang, setLang, languages }) {
+interface selectorLanguage {
+  [value: string]: string;
+  label: string;
+}
+
+export default function LanguageSelector({
+  lang,
+  setLang,
+  languages,
+}: {
+  lang: string;
+  setLang: (lang: string) => void;
+  languages: selectorLanguage[];
+}) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="language-selector">
@@ -16,7 +29,7 @@ export default function LanguageSelector({ lang, setLang, languages }) {
         </i>
       </Button>
       <div className={`language-selector-list ${isOpen ? "" : "closed"}`}>
-        {languages.map(({ value, label }) => (
+        {languages.map(({ value, label }: selectorLanguage) => (
           <Button
             key={value}
             className="language-selector-button"

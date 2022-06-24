@@ -14,12 +14,28 @@ import Footer from "./components/Footer";
 import english from "./localisation/english.json";
 import finnish from "./localisation/finnish.json";
 
-const languages = {
+interface localisation {
+  [title: string]: any;
+  header: any;
+  home: any;
+}
+
+interface languages {
+  [en: string]: localisation;
+  fi: localisation;
+}
+
+interface selectorLanguage {
+  [value: string]: string;
+  label: string;
+}
+
+const languages: languages = {
   en: english,
   fi: finnish,
 };
 
-const languagesForSelector = [
+const languagesForSelector: selectorLanguage[] = [
   { value: "en", label: "English" },
   { value: "fi", label: "Suomi" },
 ];
@@ -35,7 +51,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const language = languages[lang];
+    const language: localisation = languages[lang];
     if (language) {
       document.title = language.title;
     }

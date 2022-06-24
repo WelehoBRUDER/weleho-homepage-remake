@@ -6,7 +6,20 @@ import LanguageSelector from "./LanguageSelector";
 
 import "../style/header.scss";
 
-export default function Header({ lang, setLang, languages }) {
+interface selectorLanguage {
+  [value: string]: string;
+  label: string;
+}
+
+export default function Header({
+  lang,
+  setLang,
+  languages,
+}: {
+  lang: string;
+  setLang: (lang: string) => void;
+  languages: selectorLanguage[];
+}) {
   const language = useContext(Language);
   return (
     <header className="header">
