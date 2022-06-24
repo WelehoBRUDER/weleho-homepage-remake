@@ -21,5 +21,25 @@
   },
   "projects": {
     "title": "Projects"
+  },
+  "project": {
+    "Dungeons_of_Tavaraen": {
+      "shortDesc": "2D Roguelite RPG inspired by Tales of Maj'Eyal. Currently my most actively developed project, give it a try if you're interested!"
+    },
+    "Memory_Cards": {
+      "shortDesc": "Simple memory card game based on Dark Souls III, made to practice React."
+    },
+    "Pohjola_II": {
+      "shortDesc": "Turn based fighting game mostly made during one weekend. My most 'complete' project to date."
+    },
+    "Pohjola_III": {
+      "shortDesc": "Turn based fighting game based on its prequel Pohjola II. Abandoned in favour of Dungeons of Tavaraen."
+    },
+    "Tears_of_the_Evertree": {
+      "shortDesc": "TOTE was supposed to be my main project, it had plenty of time dedicated to it. Unfortunately, it is now an abandoned game."
+    },
+    "My_Road": {
+      "shortDesc": "One of my earlier games, started because I didn't have internet one day and decided to program an interface. Had some simple attempts at creating an AI opponent."
+    }
   }
 }

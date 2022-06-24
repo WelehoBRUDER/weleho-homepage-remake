@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import { IProject } from "../data/types";
+import Language from "../Language";
 
 export default function Project({
   project,
@@ -9,6 +11,7 @@ export default function Project({
   setImage: (image: string) => void;
   setShow: (show: boolean) => void;
 }) {
+  const language = useContext(Language);
   return (
     <div className="project-container">
       <div className="project-header">
@@ -24,6 +27,12 @@ export default function Project({
             }}
             alt={project.name}
           />
+        </div>
+        <div className="project-description">
+          <p>
+            {language.project?.[project.name.replaceAll(" ", "_").trim()]
+              ?.shortDesc ?? "project.shortDesc"}
+          </p>
         </div>
       </div>
     </div>
