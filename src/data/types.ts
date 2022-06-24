@@ -6,4 +6,5 @@ export interface IProject {
   link: string;
   repo: string;
   status: string;
+  contentTime?: number; // in minutes
 }

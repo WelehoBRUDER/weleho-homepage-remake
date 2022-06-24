@@ -20,11 +20,15 @@
     "section_3": "My current project is called 'Dungeons of Tavaraen', you can learn more about it and other games I have created down below."
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "link": "Try it",
+    "repo": "Repository",
+    "contentTime": "Completion time"
   },
   "project": {
     "Dungeons_of_Tavaraen": {
-      "shortDesc": "Roguelite RPG inspired by Tales of Maj'Eyal. Currently my most actively developed project, give it a try if you're interested!"
+      "shortDesc": "Roguelite RPG inspired by Tales of Maj'Eyal. Currently my most actively developed project, give it a try if you're interested!",
+      "longDesc": "Dungeons of Tavaraen is a roguelite game inspired by Tales of Maj'Eyal. It is based on a grid/tile movement system that dictates everything about combat. The game is still somewhat early in development, so expect to see bugs and unfinished features."
     },
     "Memory_Cards": {
       "shortDesc": "Simple memory card game based on Dark Souls III, made to practice React."

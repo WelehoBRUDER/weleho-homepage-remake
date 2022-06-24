@@ -20,11 +20,15 @@
     "section_3": "Tämän hetkinen projektini on 'Dungeons of Tavaraen', josta löytyy lisätietoa alempana."
   },
   "projects": {
-    "title": "Projektit"
+    "title": "Projektit",
+    "link": "Kokeile",
+    "repo": "Repositorio",
+    "contentTime": "Suoritusaika"
   },
   "project": {
     "Dungeons_of_Tavaraen": {
-      "shortDesc": "Tales of Maj'Eyalin inspiroima Roguelite RPG. Tämän hetkinen projektini, käy ihmeessä kokeilemassa!"
+      "shortDesc": "Tales of Maj'Eyalin inspiroima Roguelite RPG. Tämän hetkinen projektini, käy ihmeessä kokeilemassa!",
+      "longDesc": "Dungeons of Tavaraen on Tales of Maj'Eyalin inspiroima roguelite peli. Se perustuu ruutupohjaiseen liikkumiseen joka määrää taistelujen kulun. Peli on vielä kehitys vaiheessa jonka takia bugit ja keskeneräiset ominaisuudet eivät ole yllättäviä havaintoja."
     },
     "Memory_Cards": {
       "shortDesc": "Dark Souls 3 teemainen Muistikorttipeli. Tein tämän projektin opetellakseni Reactia."

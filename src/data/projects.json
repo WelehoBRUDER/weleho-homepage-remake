@@ -3,10 +3,17 @@
     "name": "Dungeons of Tavaraen",
     "type": "game",
     "image": "tavaraen.png",
-    "images": ["tavaraen.png", "tote.png"],
+    "images": [
+      "tavaraen.png",
+      "tavaraen_menu.png",
+      "tavaraen_new_game.png",
+      "tavaraen_character.png",
+      "tavaraen_perks.png"
+    ],
     "link": "https://welehobruder.github.io/Dungeons-of-Tavaraen/",
     "repo": "https://github.com/WelehoBRUDER/Dungeons-of-Tavaraen",
-    "status": "In Development"
+    "status": "In Development",
+    "contentTime": 120
   },
   {
     "name": "Memory Cards",
@@ -24,7 +31,8 @@
     "images": ["pohjola.png"],
     "link": "https://welehobruder.github.io/Pohjola-II/",
     "repo": "https://github.com/WelehoBRUDER/Pohjola-II",
-    "status": "Complete"
+    "status": "Complete",
+    "contentTime": 150
   },
   {
     "name": "Pohjola III",
