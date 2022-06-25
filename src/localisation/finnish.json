@@ -41,19 +41,24 @@
       "longDesc": "Dungeons of Tavaraen on Tales of Maj'Eyalin inspiroima roguelite peli. Se perustuu ruutupohjaiseen liikkumiseen joka määrää taistelujen kulun. Peli on vielä kehitys vaiheessa jonka takia bugit ja keskeneräiset ominaisuudet eivät ole yllättäviä havaintoja."
     },
     "Memory_Cards": {
-      "shortDesc": "Dark Souls 3 teemainen Muistikorttipeli. Tein tämän projektin opetellakseni Reactia."
+      "shortDesc": "Dark Souls 3 teemainen Muistikorttipeli. Tein tämän projektin opetellakseni Reactia.",
+      "longDesc": "Dark Souls 3 teemainen Muistikorttipeli. Tein tämän projektin opetellakseni Reactia."
     },
     "Pohjola_II": {
-      "shortDesc": "Vuoropohjainen taistelupeli jonka tein suurimmilta osin yhden viikonlopun aikana. Tämä peli on valmis."
+      "shortDesc": "Vuoropohjainen taistelupeli jonka tein suurimmilta osin yhden viikonlopun aikana. Tämä peli on valmis.",
+      "longDesc": "Vuoropohjainen taistelupeli jonka tein suurimmilta osin yhden viikonlopun aikana. Tämä peli on valmis."
     },
     "Pohjola_III": {
-      "shortDesc": "Vuoropohjainen taistelupeli jonka piti olla jatko-osa Pohjola II:teen. Lopetin tämän pelin kehittämisen keskittyäkseni Dungeons of Tavaraeniin."
+      "shortDesc": "Vuoropohjainen taistelupeli jonka piti olla jatko-osa Pohjola II:teen. Lopetin tämän pelin kehittämisen keskittyäkseni Dungeons of Tavaraeniin.",
+      "longDesc": "Vuoropohjainen taistelupeli jonka piti olla jatko-osa Pohjola II:teen. Lopetin tämän pelin kehittämisen keskittyäkseni Dungeons of Tavaraeniin."
     },
     "Tears_of_the_Evertree": {
-      "shortDesc": "Vuoropohjainen roolipeli jota varten minulla oli suuria suunnitelmia. Harmillisesti hylkäsin tämän projektin muutaman kuukauden jälkeen."
+      "shortDesc": "Vuoropohjainen roolipeli jota varten minulla oli suuria suunnitelmia. Harmillisesti hylkäsin tämän projektin muutaman kuukauden jälkeen.",
+      "longDesc": "Vuoropohjainen roolipeli jota varten minulla oli suuria suunnitelmia. Harmillisesti hylkäsin tämän projektin muutaman kuukauden jälkeen."
     },
     "My_Road": {
-      "shortDesc": "Hieman vanhempi peli jonka tekemisen aloitin koska netti oli poikki yhtenä päivänä. Tämä oli ensimmäinen lisäykseni Githubiin!"
+      "shortDesc": "Hieman vanhempi peli jonka tekemisen aloitin koska netti oli poikki yhtenä päivänä. Tämä oli ensimmäinen lisäykseni Githubiin!",
+      "longDesc": "Hieman vanhempi peli jonka tekemisen aloitin koska netti oli poikki yhtenä päivänä. Tämä oli ensimmäinen lisäykseni Githubiin!"
     }
   },
   "technologies": {

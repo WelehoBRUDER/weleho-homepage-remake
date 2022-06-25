@@ -47,6 +47,9 @@ export default function Header({
             <li>
               <Button href="/#projects">{language.header.projects}</Button>
             </li>
+            <li>
+              <Button href="/#skills">{language.header.skills}</Button>
+            </li>
           </ul>
           <LanguageSelector
             lang={lang}

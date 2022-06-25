@@ -19,6 +19,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  scrollbar-width: thin;
+  scrollbar-color: $color-primary-deep $color-primary-light;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: $color-primary-deep;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-primary-light;
 }
 
 #root {

@@ -20,6 +20,11 @@ export default function ProjectPage() {
     setProject(projectFind);
   }, [id]);
 
+  // scroll to top when entering page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   function cycleImages() {
     if (project.images.length - 1 > imageIndex) {
       setImageIndex(imageIndex + 1);
@@ -38,7 +43,7 @@ export default function ProjectPage() {
 
   return (
     <main className="project-page section-wide">
-      <div className="project-header">
+      <div className="project-header" id="project-top">
         <h1>{project.name}</h1>
       </div>
       <section className="project-links">

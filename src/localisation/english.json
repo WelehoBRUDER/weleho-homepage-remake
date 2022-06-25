@@ -41,19 +41,24 @@
       "longDesc": "Dungeons of Tavaraen is a roguelite game inspired by Tales of Maj'Eyal. It is based on a grid/tile movement system that dictates everything about combat. The game is still somewhat early in development, so expect to see bugs and unfinished features."
     },
     "Memory_Cards": {
-      "shortDesc": "Simple memory card game based on Dark Souls III, made to practice React."
+      "shortDesc": "Simple memory card game based on Dark Souls III, made to practice React.",
+      "longDesc": "Simple memory card game based on Dark Souls III, made to practice React."
     },
     "Pohjola_II": {
-      "shortDesc": "Turn based fighting game mostly made during one weekend. My most 'complete' project to date."
+      "shortDesc": "Turn based fighting game mostly made during one weekend. My most 'complete' project to date.",
+      "longDesc": "Turn based fighting game mostly made during one weekend. My most 'complete' project to date."
     },
     "Pohjola_III": {
-      "shortDesc": "Turn based fighting game based on its prequel Pohjola II. Abandoned in favour of Dungeons of Tavaraen."
+      "shortDesc": "Turn based fighting game based on its prequel Pohjola II. Abandoned in favour of Dungeons of Tavaraen.",
+      "longDesc": "Turn based fighting game based on its prequel Pohjola II. Abandoned in favour of Dungeons of Tavaraen."
     },
     "Tears_of_the_Evertree": {
-      "shortDesc": "TOTE was supposed to be my main project, it had plenty of time dedicated to it. Unfortunately, it is now an abandoned game."
+      "shortDesc": "TOTE was supposed to be my main project, it had plenty of time dedicated to it. Unfortunately, it is now an abandoned game.",
+      "longDesc": "TOTE was supposed to be my main project, it had plenty of time dedicated to it. Unfortunately, it is now an abandoned game."
     },
     "My_Road": {
-      "shortDesc": "One of my earlier games, started because I didn't have internet one day and decided to program an interface. Had some simple attempts at creating an AI opponent."
+      "shortDesc": "One of my earlier games, started because I didn't have internet one day and decided to program an interface. Had some simple attempts at creating an AI opponent.",
+      "longDesc": "One of my earlier games, started because I didn't have internet one day and decided to program an interface. Had some simple attempts at creating an AI opponent."
     }
   },
   "technologies": {

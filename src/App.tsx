@@ -60,16 +60,20 @@ export default function App() {
 
   return (
     <Language.Provider value={languages[lang]}>
-      <Header lang={lang} setLang={setLang} languages={languagesForSelector} />
       <BrowserRouter>
+        <Header
+          lang={lang}
+          setLang={setLang}
+          languages={languagesForSelector}
+        />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project/:id" element={<ProjectPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </Language.Provider>
   );
 }
