@@ -16,7 +16,11 @@ export default function Project({
   return (
     <div className="project-container">
       <div className="project-header">
-        <Button link={`/project/${project.name.replaceAll(" ", "_").trim()}`}>
+        <Button
+          link={`/weleho-homepage-remake/project/${project.name
+            .replaceAll(" ", "_")
+            .trim()}`}
+        >
           <h3>{project.name}</h3>
         </Button>
       </div>

@@ -67,9 +67,12 @@ export default function App() {
           languages={languagesForSelector}
         />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project/:id" element={<ProjectPage />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/weleho-homepage-remake" element={<Home />} />
+          <Route
+            path="/weleho-homepage-remake/project/:id"
+            element={<ProjectPage />}
+          />
+          <Route path="/weleho-homepage-remake/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

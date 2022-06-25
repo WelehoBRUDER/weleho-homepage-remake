@@ -39,16 +39,24 @@ export default function Header({
         <nav>
           <ul>
             <li>
-              <Button href="/#home">{language.header.home}</Button>
+              <Button href="/weleho-homepage-remake/#home">
+                {language.header.home}
+              </Button>
             </li>
             <li>
-              <Button href="/#about">{language.header.about}</Button>
+              <Button href="/weleho-homepage-remake/#about">
+                {language.header.about}
+              </Button>
             </li>
             <li>
-              <Button href="/#projects">{language.header.projects}</Button>
+              <Button href="/weleho-homepage-remake/#projects">
+                {language.header.projects}
+              </Button>
             </li>
             <li>
-              <Button href="/#skills">{language.header.skills}</Button>
+              <Button href="/weleho-homepage-remake/#skills">
+                {language.header.skills}
+              </Button>
             </li>
           </ul>
           <LanguageSelector
