@@ -5,7 +5,8 @@
     "home": "Koti",
     "about": "Tietoa",
     "contact": "Yhteystiedot",
-    "projects": "Projektit"
+    "projects": "Projektit",
+    "skills": "Taidot"
   },
   "footer": {
     "backToTop": "Takaisin alkuun"
@@ -20,7 +21,10 @@
     "title": "Tietoa minusta",
     "section_1": "Olen 20v ohjelmoija kotoisin Helsingistä.",
     "section_2": "Suurin kiinnostukseni on pelikehitys, joka käy selväksi projekteistani.\nOpettelin koodaamaan juuri pelien kehitystä varten, mutta matkan varrella muustakin ohjelmoinnista on syntynyt nautinto.",
-    "section_3": "Tämän hetkinen projektini on 'Dungeons of Tavaraen', josta löytyy lisätietoa alempana."
+    "section_3": "Tämän hetkinen projektini on 'Dungeons of Tavaraen', josta löytyy lisätietoa alempana.",
+    "currentWork": "Olen tällä hetkellä töissä",
+    "currentWorkplace": "Virittämö Helsingissä",
+    "currentWorkRole": "ohjelmistokehittäjänä."
   },
   "projects": {
     "title": "Projektit",
@@ -53,6 +57,7 @@
     }
   },
   "technologies": {
-    "title": "Teknologiat"
+    "title": "Teknologiat",
+    "text": "Tässä on listattuna teknologiat joita olen jo käyttänyt projekteissani, tai joita ymmärrän kohtalaisesti. Jos tämä tech-stack ei riitä, olen aina avoin opettelemaan jotain uutta!"
   }
 }

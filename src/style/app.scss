@@ -92,3 +92,40 @@ p {
     color: $white;
   }
 }
+
+.technologies {
+  padding: 20px 15px;
+  margin: 40px 0;
+  text-align: center;
+  background: $color-primary-deep;
+  border-radius: 30px;
+  box-shadow: $shadow-lg;
+  border: 3px solid $color-border;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .section-wide {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tech-desc {
+    width: 800px;
+    text-align: left;
+  }
+}
+
+.tech-image {
+  width: 96px;
+  height: 96px;
+  img {
+    width: 96px;
+    filter: drop-shadow(0 0 5px $black);
+  }
+}

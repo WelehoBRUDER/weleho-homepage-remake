@@ -4,6 +4,7 @@ import Language from "../Language";
 
 import About from "./About";
 import Projects from "./Projects";
+import Technologies from "./Technologies";
 
 export default function Home() {
   const language = useContext(Language);
@@ -22,6 +23,9 @@ export default function Home() {
       </section>
       <section>
         <Projects />
+      </section>
+      <section>
+        <Technologies />
       </section>
     </main>
   );

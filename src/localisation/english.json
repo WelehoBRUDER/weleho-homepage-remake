@@ -5,7 +5,8 @@
     "home": "Home",
     "about": "About",
     "contact": "Contact",
-    "projects": "Projects"
+    "projects": "Projects",
+    "skills": "Skills"
   },
   "footer": {
     "backToTop": "Back to Top"
@@ -20,7 +21,10 @@
     "title": "About Me",
     "section_1": "I am a 20 year old software developer from Helsinki, Finland.",
     "section_2": "I have a particular passion for game development, which is reflected on my projects.\nAnd though game development is why I learned to code, programming in general has also become one of my favourite hobbies.",
-    "section_3": "My current project is called 'Dungeons of Tavaraen', you can learn more about it and other games I have created down below."
+    "section_3": "My current project is called 'Dungeons of Tavaraen', you can learn more about it and other games I have created down below.",
+    "currentWork": "I currently work at",
+    "currentWorkplace": "Virittämö Helsinki",
+    "currentWorkRole": "as a Frontend Developer."
   },
   "projects": {
     "title": "Projects",
@@ -53,6 +57,7 @@
     }
   },
   "technologies": {
-    "title": "Technologies"
+    "title": "Technologies",
+    "text": "These are the technologies I have either used in my projects or have decent knowledge of. If you are in need of a different stack, I am always willing to grow my list of skills!"
   }
 }
