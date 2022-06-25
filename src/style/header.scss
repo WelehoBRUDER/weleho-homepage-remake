@@ -14,8 +14,20 @@
   z-index: 5;
 
   * {
-    margin: 0 10px;
+    margin: 1px 10px;
     vertical-align: middle;
+  }
+
+  img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    box-shadow: $shadow-md;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
   }
 }
 

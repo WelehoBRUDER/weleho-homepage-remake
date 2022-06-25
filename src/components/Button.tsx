@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 interface buttonProps {
   link?: string;
   href?: string;
+  id?: string;
   className?: string;
   children?: React.ReactNode;
   onClick?: () => void;
@@ -11,13 +12,14 @@ interface buttonProps {
 export default function Button({
   link,
   href,
+  id,
   className = "primary-button",
   children,
   onClick,
 }: buttonProps) {
   if (link) {
     return (
-      <Link to={link} className={className}>
+      <Link id={id} to={link} className={className}>
         {children}
       </Link>
     );
@@ -25,14 +27,14 @@ export default function Button({
 
   if (href) {
     return (
-      <a href={href} className={className} onClick={onClick}>
+      <a id={id} href={href} className={className} onClick={onClick}>
         {children}
       </a>
     );
   }
 
   return (
-    <button className={className} onClick={onClick}>
+    <button id={id} className={className} onClick={onClick}>
       {children}
     </button>
   );

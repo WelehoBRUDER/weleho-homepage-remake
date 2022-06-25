@@ -33,6 +33,7 @@ export default function Header({
         }`}
       >
         <Button href="https://github.com/WelehoBRUDER">
+          <img src={`${process.env.PUBLIC_URL}/images/svenko.png`} />
           <h2>{language.header.title}</h2>
         </Button>
         <nav>

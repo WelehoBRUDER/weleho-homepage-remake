@@ -7,6 +7,9 @@
     "contact": "Contact",
     "projects": "Projects"
   },
+  "footer": {
+    "backToTop": "Back to Top"
+  },
   "home": {
     "title": "Weleho's Lair",
     "welcome_1": "Welcome to Weleho's Lair!",

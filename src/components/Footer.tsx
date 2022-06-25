@@ -1,29 +1,48 @@
+import { useContext } from "react";
+import Button from "./Button";
+import Language from "../Language";
 import "../style/footer.scss";
 
 export default function Footer() {
+  const language = useContext(Language);
   return (
     <footer className="footer">
       <div className="footer-content">
-        <ul className="footer-links">
-          <li>
-            <a
-              href="
-            https://www.linkedin.com/in/joshua-m-b-a8a8b8b5/
-            "
+        <div className="footer-back-to-top">
+          <Button href="#top">
+            <i className="material-icons-outlined">arrow_upward</i>
+            <h3>{language.footer.backToTop}</h3>
+          </Button>
+        </div>
+        <div className="footer-links">
+          <Button href="https://www.linkedin.com/in/juhana-h%C3%A4nninen-41069b218/">
+            <svg
+              className="logo"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
             >
-              linkedin
-            </a>
-          </li>
-          <li>
-            <a
-              href="
-            https://www.instagram.com/joshua_m_b/
-            "
+              <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+            </svg>
+          </Button>
+          <Button href="https://www.youtube.com/c/svenko">
+            <svg
+              className="logo"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
             >
-              instagram
-            </a>
-          </li>
-        </ul>
+              <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+            </svg>
+          </Button>
+          <Button href="https://steamcommunity.com/id/dimmedd/">
+            <svg
+              className="logo"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 496 512"
+            >
+              <path d="M496 256c0 137-111.2 248-248.4 248-113.8 0-209.6-76.3-239-180.4l95.2 39.3c6.4 32.1 34.9 56.4 68.9 56.4 39.2 0 71.9-32.4 70.2-73.5l84.5-60.2c52.1 1.3 95.8-40.9 95.8-93.5 0-51.6-42-93.5-93.7-93.5s-93.7 42-93.7 93.5v1.2L176.6 279c-15.5-.9-30.7 3.4-43.5 12.1L0 236.1C10.2 108.4 117.1 8 247.6 8 384.8 8 496 119 496 256zM155.7 384.3l-30.5-12.6a52.79 52.79 0 0 0 27.2 25.8c26.9 11.2 57.8-1.6 69-28.4 5.4-13 5.5-27.3.1-40.3-5.4-13-15.5-23.2-28.5-28.6-12.9-5.4-26.7-5.2-38.9-.6l31.5 13c19.8 8.2 29.2 30.9 20.9 50.7-8.3 19.9-31 29.2-50.8 21zm173.8-129.9c-34.4 0-62.4-28-62.4-62.3s28-62.3 62.4-62.3 62.4 28 62.4 62.3-27.9 62.3-62.4 62.3zm.1-15.6c25.9 0 46.9-21 46.9-46.8 0-25.9-21-46.8-46.9-46.8s-46.9 21-46.9 46.8c.1 25.8 21.1 46.8 46.9 46.8z" />
+            </svg>
+          </Button>
+        </div>
       </div>
     </footer>
   );

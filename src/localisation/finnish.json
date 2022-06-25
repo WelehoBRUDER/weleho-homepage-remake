@@ -7,6 +7,9 @@
     "contact": "Yhteystiedot",
     "projects": "Projektit"
   },
+  "footer": {
+    "backToTop": "Takaisin alkuun"
+  },
   "home": {
     "title": "Welehon Pesä",
     "welcome_1": "Tervetuloa Welehon pesään!",

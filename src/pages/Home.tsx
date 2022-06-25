@@ -9,6 +9,7 @@ export default function Home() {
   const language = useContext(Language);
   return (
     <main className="home" id="home">
+      <div id="#top" />
       <h1>{language.home.title}</h1>
 
       <section className="section-medium">
