@@ -38,28 +38,36 @@ export default function ProjectPage() {
 
   return (
     <main className="project-page section-wide">
-      <h1>{project.name}</h1>
-      {project.link && (
-        <Button href={project.link}>
-          <h3>{language.projects.link}</h3>
-        </Button>
-      )}
-      {project.repo && (
-        <Button href={project.repo}>
-          <h3>{language.projects.repo}</h3>
-        </Button>
-      )}
-      <div className="project-page-desc">
+      <div className="project-header">
+        <h1>{project.name}</h1>
+      </div>
+      <section className="project-links">
+        {project.link && (
+          <Button href={project.link}>
+            <h3>{language.projects.link}</h3>
+          </Button>
+        )}
+        {project.repo && (
+          <Button href={project.repo}>
+            <h3>{language.projects.repo}</h3>
+          </Button>
+        )}
+      </section>
+      <section className="project-page-desc">
         <p>
           {language.project[project.name.replaceAll(" ", "_")].longDesc ??
             "project.longDesc"}
         </p>
-      </div>
-      {project.contentTime && (
-        <p>
-          {language.projects.contentTime}: {project.contentTime}min
-        </p>
-      )}
+      </section>
+      <section className="project-misc-info">
+        {project.misc?.map(({ key, value }) => {
+          return (
+            <p key={key}>
+              <strong>{language.projects[key]}:</strong> {value}
+            </p>
+          );
+        })}
+      </section>
       <div className="project-images-showcase">
         <Button className="chevron" onClick={cycleImagesBackwards}>
           <i className="material-icons-outlined">chevron_left</i>

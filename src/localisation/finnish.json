@@ -23,7 +23,10 @@
     "title": "Projektit",
     "link": "Kokeile",
     "repo": "Repositorio",
-    "contentTime": "Suoritusaika"
+    "contentTime": "Suoritusaika",
+    "mainLanguage": "Skriptauskieli",
+    "styleLanguage": "Tyylikieli",
+    "framework": "Framework"
   },
   "project": {
     "Dungeons_of_Tavaraen": {
@@ -45,5 +48,8 @@
     "My_Road": {
       "shortDesc": "Hieman vanhempi peli jonka tekemisen aloitin koska netti oli poikki yhtenä päivänä. Tämä oli ensimmäinen lisäykseni Githubiin!"
     }
+  },
+  "technologies": {
+    "title": "Teknologiat"
   }
 }

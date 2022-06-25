@@ -13,7 +13,12 @@
     "link": "https://welehobruder.github.io/Dungeons-of-Tavaraen/",
     "repo": "https://github.com/WelehoBRUDER/Dungeons-of-Tavaraen",
     "status": "In Development",
-    "contentTime": 120
+    "misc": [
+      { "key": "contentTime", "value": "120min" },
+      { "key": "mainLanguage", "value": "TypeScript" },
+      { "key": "styleLanguage", "value": "Sass" },
+      { "key": "framework", "value": "HTML Canvas" }
+    ]
   },
   {
     "name": "Memory Cards",
@@ -22,7 +27,13 @@
     "images": ["memory-cards.png"],
     "link": "https://welehobruder.github.io/memory-cards-game/",
     "repo": "https://github.com/WelehoBRUDER/memory-cards-game",
-    "status": "Complete"
+    "status": "Complete",
+    "misc": [
+      { "key": "contentTime", "value": "5min" },
+      { "key": "mainLanguage", "value": "JavaScript" },
+      { "key": "styleLanguage", "value": "Sass" },
+      { "key": "framework", "value": "React" }
+    ]
   },
   {
     "name": "Pohjola II",
@@ -32,7 +43,12 @@
     "link": "https://welehobruder.github.io/Pohjola-II/",
     "repo": "https://github.com/WelehoBRUDER/Pohjola-II",
     "status": "Complete",
-    "contentTime": 150
+    "misc": [
+      { "key": "contentTime", "value": "150min" },
+      { "key": "mainLanguage", "value": "JavaScript" },
+      { "key": "styleLanguage", "value": "CSS" },
+      { "key": "framework", "value": "Vanilla" }
+    ]
   },
   {
     "name": "Pohjola III",
@@ -41,7 +57,13 @@
     "images": ["pohjola3.png"],
     "link": "https://welehobruder.github.io/Pohjola-III/",
     "repo": "https://github.com/WelehoBRUDER/Pohjola-III",
-    "status": "Abandoned"
+    "status": "Abandoned",
+    "misc": [
+      { "key": "contentTime", "value": "10min" },
+      { "key": "mainLanguage", "value": "JavaScript" },
+      { "key": "styleLanguage", "value": "Sass" },
+      { "key": "framework", "value": "Vanilla" }
+    ]
   },
   {
     "name": "Tears of the Evertree",
@@ -50,7 +72,13 @@
     "images": ["tote.png"],
     "link": "https://welehobruder.github.io/TOTE/",
     "repo": "https://github.com/WelehoBRUDER/TOTE",
-    "status": "Abandoned"
+    "status": "Abandoned",
+    "misc": [
+      { "key": "contentTime", "value": "10min" },
+      { "key": "mainLanguage", "value": "JavaScript" },
+      { "key": "styleLanguage", "value": "CSS" },
+      { "key": "framework", "value": "Vanilla" }
+    ]
   },
   {
     "name": "My Road",
@@ -59,6 +87,12 @@
     "images": ["my-road.png"],
     "link": "https://welehobruder.github.io/MY-ROAD-RPG/",
     "repo": "https://github.com/WelehoBRUDER/MY-ROAD-RPG",
-    "status": "Abandoned"
+    "status": "Abandoned",
+    "misc": [
+      { "key": "contentTime", "value": "20min" },
+      { "key": "mainLanguage", "value": "JavaScript" },
+      { "key": "styleLanguage", "value": "CSS" },
+      { "key": "framework", "value": "Vanilla" }
+    ]
   }
 ]

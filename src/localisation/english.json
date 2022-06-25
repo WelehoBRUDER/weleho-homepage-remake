@@ -23,7 +23,10 @@
     "title": "Projects",
     "link": "Try it",
     "repo": "Repository",
-    "contentTime": "Completion time"
+    "contentTime": "Completion time",
+    "mainLanguage": "Scripting language",
+    "styleLanguage": "Styling language",
+    "framework": "Framework"
   },
   "project": {
     "Dungeons_of_Tavaraen": {
@@ -45,5 +48,8 @@
     "My_Road": {
       "shortDesc": "One of my earlier games, started because I didn't have internet one day and decided to program an interface. Had some simple attempts at creating an AI opponent."
     }
+  },
+  "technologies": {
+    "title": "Technologies"
   }
 }
