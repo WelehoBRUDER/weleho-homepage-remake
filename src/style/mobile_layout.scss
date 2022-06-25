@@ -9,6 +9,14 @@
     width: min(100vw, 585px);
   }
 
+  * {
+    max-width: 100vw !important;
+  }
+
+  #root {
+    width: 100vw;
+  }
+
   .section-medium,
   .section-wide {
     margin: 0 auto;
@@ -104,6 +112,15 @@
         width: 72px;
       }
     }
+  }
+
+  main {
+    box-sizing: border-box !important;
+  }
+
+  footer.footer {
+    width: 100vw;
+    padding: 10px 0;
   }
 }
 

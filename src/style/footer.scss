@@ -21,6 +21,13 @@
   }
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   width: 2.5rem;
   height: 2.5rem;
