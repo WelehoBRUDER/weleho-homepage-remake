@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/weleho-homepage-remake/static/css/main.60c08aaa.css",
+    "main.js": "/weleho-homepage-remake/static/js/main.bf2af052.js",
+    "static/media/material-icons-two-tone.woff": "/weleho-homepage-remake/static/media/material-icons-two-tone.8e41f5e6fbad90e70672.woff",
+    "static/media/material-icons-two-tone.woff2": "/weleho-homepage-remake/static/media/material-icons-two-tone.c142818ceebfd170aa69.woff2",
+    "static/media/material-icons-round.woff": "/weleho-homepage-remake/static/media/material-icons-round.8fce91b9f9c627c2c260.woff",
+    "static/media/material-icons-outlined.woff": "/weleho-homepage-remake/static/media/material-icons-outlined.caaa30bfc2787b8a34d9.woff",
+    "static/media/material-icons-round.woff2": "/weleho-homepage-remake/static/media/material-icons-round.b48566658cf6cdc085ef.woff2",
+    "static/media/material-icons.woff": "/weleho-homepage-remake/static/media/material-icons.fb4caf529542c0bace6a.woff",
+    "static/media/material-icons-sharp.woff": "/weleho-homepage-remake/static/media/material-icons-sharp.2da22890bca946c7a100.woff",
+    "static/media/material-icons-outlined.woff2": "/weleho-homepage-remake/static/media/material-icons-outlined.73319595f421ef8247b1.woff2",
+    "static/media/material-icons-sharp.woff2": "/weleho-homepage-remake/static/media/material-icons-sharp.0cf959b1473bddd82508.woff2",
+    "static/media/material-icons.woff2": "/weleho-homepage-remake/static/media/material-icons.64303b62e9d3b6d6d3d3.woff2",
+    "index.html": "/weleho-homepage-remake/index.html",
+    "main.60c08aaa.css.map": "/weleho-homepage-remake/static/css/main.60c08aaa.css.map",
+    "main.bf2af052.js.map": "/weleho-homepage-remake/static/js/main.bf2af052.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60c08aaa.css",
+    "static/js/main.bf2af052.js"
+  ]
+}
