@@ -37,7 +37,7 @@ export default function ProjectPage() {
   }
 
   return (
-    <div className="project-page">
+    <main className="project-page section-wide">
       <h1>{project.name}</h1>
       {project.link && (
         <Button href={project.link}>
@@ -74,6 +74,6 @@ export default function ProjectPage() {
           <i className="material-icons-outlined">chevron_right</i>
         </Button>
       </div>
-    </div>
+    </main>
   );
 }

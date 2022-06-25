@@ -24,6 +24,10 @@ body {
 #root {
   min-width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -77,9 +81,11 @@ p {
 .chevron {
   background: none;
   border: none;
+  color: $black;
+  text-shadow: $text-shadow-m;
 
   i {
-    font-size: 10rem;
+    font-size: 8rem;
   }
 
   &:hover {
