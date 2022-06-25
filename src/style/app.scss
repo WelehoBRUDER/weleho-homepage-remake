@@ -141,3 +141,9 @@ p {
     filter: drop-shadow(0 0 5px $black);
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .section-wide {
+    width: 100vw;
+  }
+}

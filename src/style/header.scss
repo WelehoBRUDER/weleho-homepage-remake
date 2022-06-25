@@ -62,7 +62,24 @@ nav {
   z-index: 10;
   background: none;
   border: none;
+  color: $white;
+  text-shadow: $text-shadow-m;
   i {
-    font-size: 2.75rem;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    justify-content: center;
+
+    nav {
+      justify-content: center;
+    }
+
+    * {
+      margin: 1px 4px;
+      padding: 0;
+    }
   }
 }

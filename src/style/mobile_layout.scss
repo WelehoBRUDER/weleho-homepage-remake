@@ -1,8 +1,39 @@
 @use "./utility.scss" as *;
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .burger {
     display: block !important;
+  }
+
+  .section-medium {
+    width: min(100vw, 585px);
+  }
+
+  .section-medium,
+  .section-wide {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p,
+    span,
+    h1,
+    h2,
+    h3 {
+      width: auto;
+      max-width: 90%;
+    }
+  }
+
+  .sub-title {
+    text-align: center;
+  }
+
+  :root {
+    font-size: 87.5%;
   }
   .header {
     * {
@@ -38,5 +69,46 @@
         }
       }
     }
+  }
+
+  section.project-misc-info {
+    padding: 0;
+    p {
+      width: 100%;
+    }
+  }
+
+  div.project-images-showcase {
+    .show-case-image {
+      height: auto;
+      margin: 0;
+      width: 72.5%;
+    }
+
+    i {
+      margin: 0;
+      font-size: 4rem;
+    }
+  }
+
+  .technologies {
+    .tech-desc {
+      width: 90vw;
+    }
+
+    .tech-image {
+      margin: 8px;
+      width: 72px;
+      height: 72px;
+      img {
+        width: 72px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 80%;
   }
 }
