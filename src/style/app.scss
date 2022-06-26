@@ -3,8 +3,6 @@
 // enable smooth scroll on everything
 html {
   scroll-behavior: smooth;
-  overflow: hidden;
-  overflow-y: auto;
 }
 
 // base body
@@ -43,8 +41,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  overflow-y: auto;
 }
 
 main {

@@ -79,6 +79,15 @@
     }
   }
 
+  .project-container {
+    height: auto;
+    padding-bottom: 10px;
+
+    .project-description {
+      height: auto;
+    }
+  }
+
   section.project-misc-info {
     padding: 0;
     p {
@@ -100,16 +109,23 @@
   }
 
   .technologies {
+    width: 94vw;
+    padding: 0;
     .tech-desc {
       width: 90vw;
     }
 
+    section.section-wide {
+      width: 90%;
+      justify-content: center;
+    }
+
     .tech-image {
       margin: 8px;
-      width: 72px;
-      height: 72px;
+      width: 60px;
+      height: 60px;
       img {
-        width: 72px;
+        width: 60px;
       }
     }
   }

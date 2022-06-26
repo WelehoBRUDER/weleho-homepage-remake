@@ -146,7 +146,8 @@ button {
     transition: 100ms border-color ease-in-out;
     will-change: border-color;
     width: 90%;
-    height: 220px;
+    height: auto;
+    max-height: 220px;
     border-width: 5px;
     border-style: solid;
     border-color: $color-border;
